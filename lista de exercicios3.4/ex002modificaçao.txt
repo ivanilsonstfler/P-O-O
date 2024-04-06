@@ -1,0 +1,14 @@
+algoritmo "Imprimir_Valores"
+var
+   N, i: inteiro
+inicio
+   escreva("Digite um valor para N: ")
+   leia(N)
+   enquanto N <= 0 faca
+      escreva("O valor de N deve ser maior que 0. Digite novamente: ")
+      leia(N)
+   fim-enquanto
+   para i de 1 ate N faca
+      escreval(i)
+   fimpara
+fimalgoritmo

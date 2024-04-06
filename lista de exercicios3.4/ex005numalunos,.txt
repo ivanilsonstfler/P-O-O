@@ -1,0 +1,16 @@
+algoritmo "Media_Aritmetica_Turma"
+var
+   i, num_alunos: inteiro
+   nota, soma, media: real
+inicio
+   escreva("Digite o número de alunos na turma: ")
+   leia(num_alunos)
+   soma <- 0
+   para i de 1 ate num_alunos faca
+      escreva("Digite a nota do ", i, "º aluno: ")
+      leia(nota)
+      soma <- soma + nota
+   fimpara
+   media <- soma / num_alunos
+   escreval("A média aritmética das notas dos alunos é: ", media)
+fimalgoritmo

@@ -1,0 +1,14 @@
+algoritmo "Media_Aritmetica"
+var
+   i: inteiro
+   valor, soma, media: real
+inicio
+   soma <- 0
+   para i de 1 ate 10 faca
+      escreva("Digite o ", i, "º valor: ")
+      leia(valor)
+      soma <- soma + valor
+   fimpara
+   media <- soma / 10
+   escreval("A média aritmética dos valores digitados é: ", media)
+fimalgoritmo

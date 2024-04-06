@@ -1,0 +1,3 @@
+eleitores
+votosBrancos
+votosNulos

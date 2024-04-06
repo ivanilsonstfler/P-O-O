@@ -1,0 +1,14 @@
+algoritmo "Valores_Negativos"
+var
+   i, valor, cont_negativos: inteiro
+inicio
+   cont_negativos <- 0
+   para i de 1 ate 10 faca
+      escreva("Digite o ", i, "º valor: ")
+      leia(valor)
+      se valor < 0 entao
+         cont_negativos <- cont_negativos + 1
+      fimse
+   fimpara
+   escreval("O número de valores negativos é: ", cont_negativos)
+fimalgoritmo

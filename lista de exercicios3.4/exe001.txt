@@ -1,0 +1,10 @@
+algoritmo "Imprimir_Valores"
+var
+   N, i: inteiro
+inicio
+   escreva("Digite um valor para N: ")
+   leia(N)
+   para i de 1 ate N faca
+      escreval(i)
+   fimpara
+fimalgoritmo
